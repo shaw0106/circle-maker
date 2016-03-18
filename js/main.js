@@ -6,9 +6,6 @@ $body.on('keydown', function () {
 
   $body.append($ballAppear);
   $ballAppear.addClass('ball');
-  $ballAppear.css('left, Math.random()');
-  $ballAppear.css('top, Math.random()');
+  $ballAppear.css('left', Math.random() * 500);
+  $ballAppear.css('top', Math.random() * 500);
 });
-
-// Math.random()
-// \.css\('left')
